@@ -41,6 +41,7 @@ class MergeSort:
 
 inputArray = [8, 7, 6, 5, 4, 3, 2, 1]
 mergeSort = MergeSort()
+print("::::::::: Merge Sort :::::::::")
 print("Before Sorting ::: ", inputArray)
 print("After Sorting ::: ", mergeSort.sort(inputArray, 0, 7))
 print("Time complexity ::: O(n log n)")
